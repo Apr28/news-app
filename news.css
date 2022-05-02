@@ -1,0 +1,14 @@
+
+#detailed_news{
+    width: 65%;
+    margin: 2rem auto;
+    border: 2px solid steelblue;
+    padding: 2rem;
+}
+
+#detailed_news > .news{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+} 
+

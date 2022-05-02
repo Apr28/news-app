@@ -1,0 +1,46 @@
+
+#box{
+    padding: 0 3rem;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+#box > #sidebar{
+    flex: 0.2;
+}
+#box > main{
+    flex: 1.1;
+}
+
+#sidebar > h4{
+    padding: 1rem 1.2rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: lightslategrey;
+    color: #ffff;
+}
+
+main > #results{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#results > .news{
+    border: 3px solid green;
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+#results > .news > img{
+    height: 250px;
+    width: 250px;
+}
+
+#results > .news > div{
+   display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
